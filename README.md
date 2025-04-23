@@ -3,3 +3,4 @@ Estudo de análise de dados com Phyton a partir de bibliotecas da universidade U
 
 O arquivo do Jupyter Notebook contém todo o processamento dos dados, construção de gráficos, tabelas e insights observados.
 
+Teste.html é a tabela o último desafio, em que o objetivo é calcular as variações percentuais nos empréstimos e converter em html para ser publicado em um site.
