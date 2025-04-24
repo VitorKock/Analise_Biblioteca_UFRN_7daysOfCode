@@ -36,6 +36,9 @@ Depois fiz uma investigação de sazonalidade (empréstimos por mês e hora do d
 
 1. Os horários com mais emprestimos são às 16h e 10h (principais), seguidos por 17h e 18h (ter mais funcionários para atendimento ao público). 
 2. Os horários com menos emprestimos são das 7h às 9h, 20h às 22h e 13h (podendo destinar mais funcionários para atividades administrativas e horários de almoço/jantar).
+## Análise Exploratória Categorias
+![image](https://github.com/user-attachments/assets/65c3f03d-a6e7-4f30-974e-6937d7749a8a)
+![image](https://github.com/user-attachments/assets/a8569b84-46a3-48dc-b5bb-1350ac77f668)
 
 Depois fiz uma análise exploratória das categorias, e os insights obtidos foram:
 1. Quase 80% dos empréstimos são feitos pelos alunos de graduação, possivelmente por serem o maior público nas universidades (preicsamos de dados para confirmar se esse perfil se aplica a base). Alunos de pós-graduação e docentes são responsáveis por 14.6% e 3.4% dos empréstimos, será que esse público está sendo contemplado com os recursos necessários para atividades de pesquisa, ou há muita necessidade de livros/artigos que a biblioteca não disponibiliza? Muitos artigos podem ser acessados online em plataformas externas a universidade, por isso é esperado que o público de pós-graduação (mestrado, doutorado e latu sensu) use menos as bibliotecas.
@@ -53,7 +56,7 @@ Na sequência foi feita uma avaliação de distribuição de empréstimos por an
 - Na maioria dos anos a mediana está mais próxima ao quartil 3 do que o quartil 1, ou seja, há mais meses com menos empréstimos do que a média do maiores (provavelmente por conta dos meses de janeiro e dezembro estarem inclusos no gráfico). A exceção é o ano de 2014, que foi um ano de redução significativa na quantidade de empréstimos em relação aos anos anteriores. Seria interessante entender o que causou essa queda.
 - Em 2017 houve um aumento no número de empréstimos que seria interessante investigar o que ajudou a reverter a tendência de queda desde 2014.
 
-## Pós Graduação
+## Pós-Graduação
 ![boxplot_posgraduacao](https://github.com/user-attachments/assets/f87f7cf5-25e2-4ca4-a812-f97772e47104)
 - Quantidade de empréstimos ao longo do ano bem distribuída (mediana quase equidistante do quartil 1 e 3)
 - Aumento da quantidade de empréstimos de 2010 a 2013, estagnação/leve redução até 2017 e redução brusca de 2018 em diante (o que será que aconteceu?)
@@ -62,7 +65,16 @@ Na sequência foi feita uma avaliação de distribuição de empréstimos por an
 Depois fiz uma análise de empréstimos por curso fazendo uma tabela resumo/dinâmica (Pivot Table)
 Para isso foi fornecido tabelas em Excel e JSON (obtidos no sistema da universidade) com matrícula e curso dos alunos de graduação e pós-graduação. Foi feito o tratamento e filtragem das informações de interesse para chegar na tabela dinâmica (tanto para graduação quanto pós graduação).
 
+Graduação de 2015 a 2020:
+![image](https://github.com/user-attachments/assets/de5926ec-5d66-437d-88a4-2a4449edd4cc)
+
+Pós-Graduação de 2017 a 2022 (sem dados de 2021):
+![image](https://github.com/user-attachments/assets/1ebea963-d048-416c-9df3-c14556ae5374)
+
 Ao final foram calculados os percentuais de variação do número de empréstimos por ano para os valores da tabela dinâmica por curso para os alunos de pós-graduação, sendo fornecido o número de empréstimos por curso em 2022 (foi necessário incluir na tabela dinâmica). Então a tabela foi formatada em HTML e CSS para ser incluída no site da universidade, como parte de uma campanha de marketing da Biblioteca. O resultado é apresentado abaixo:
 
 ![image](https://github.com/user-attachments/assets/9663bf8e-e32f-4d2e-8f34-827c290e3b24)
 
+Vemos que de 2017 a 2019 as quedas foram no número de empréstimos foram expressivas, e a previsão é de aumento no número de empréstimos em 2022 em relação a 2019 para os cursos de Administração, Bioinformática e Ciências Odontológicas, principalmente, enquanto a queda persistiu em Ciências da Saúde e Engenharia Civil.
+
+Obs: Na época em que o desafio foi criado, os dados de 2022 eram uma previsão. Como já estamos em 2025, considerei que a previsão se concretizou e essa análise foi feita agora para a universidade.
