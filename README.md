@@ -8,7 +8,7 @@ Bibliotecas Utilizadas: Pandas(Tabelas e limpeza de dados), os (Operacional Syst
 
 O desafio começa com o fornecimento de dados de empréstimos (data de empréstimo, renovação, devolução, código de barras do exemplar, matrícula do aluno, etc) e de exemplares (código de barras do exemplar, id do exemplar, coleção, biblioteca em que está, localização, etc).
 
-Como os dados de empréstimos vieram em arquivos separados semestralmente do primeiro semestre de 2010 ao segundo semestre de 2020, fiz um "for loop" para todos os .csv de uma pasta e concatenei os arquivos em um dataframe do pandas. 
+Como os dados de empréstimos vieram em arquivos separados semestralmente do primeiro semestre de 2010 ao segundo semestre de 2020, fiz um "for loop" para todos os .csv da pasta "Dados_Emprestimos" e concatenei os arquivos em um dataframe do pandas. 
 
 Fiz a limpeza (removendo duplicados) e uni os dados de empréstimo com os de exemplares em um único arquivo. Também removi a coluna "registro_sistema" (pois não vou utilizar esse endereçamento) e converti a coluna de matrícula para string.
 
