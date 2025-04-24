@@ -1,7 +1,10 @@
-# desafio_7daysOfCode - Análise de Dados com Phyton com as Bibliotecas Pandas Seaborn e Plotly
-Estudo de análise de dados com Phyton a partir de bibliotecas da universidade UFRN, proposto pelo instrutor Francisco Foz
+# desafio_7daysOfCode - Análise de Dados da Biblioteca da UFRN
+Estudo de análise de dados com Phyton a partir de bibliotecas da universidade UFRN, proposto pelo instrutor Francisco Foz.
 
 O arquivo do Jupyter Notebook contém todo o processamento dos dados, construção de gráficos, tabelas e insights observados.
+
+Linguagem Principal: Phyton
+Bibliotecas Utilizadas: Pandas(Tabelas e limpeza de dados), os (Operacional System), Seaborn e Plotly (Gráficos).
 
 O desafio começa com o fornecimento de dados de empréstimos (data de empréstimo, renovação, devolução, código de barras do exemplar, matrícula do aluno, etc) e de exemplares (código de barras do exemplar, id do exemplar, coleção, biblioteca em que está, localização, etc).
 
