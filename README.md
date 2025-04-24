@@ -37,8 +37,6 @@ Depois fiz uma investigação de sazonalidade (empréstimos por mês e hora do d
 1. Os horários com mais emprestimos são às 16h e 10h (principais), seguidos por 17h e 18h (ter mais funcionários para atendimento ao público). 
 2. Os horários com menos emprestimos são das 7h às 9h, 20h às 22h e 13h (podendo destinar mais funcionários para atividades administrativas e horários de almoço/jantar).
 ## Análise Exploratória Categorias
-![image](https://github.com/user-attachments/assets/65c3f03d-a6e7-4f30-974e-6937d7749a8a)
-![image](https://github.com/user-attachments/assets/a8569b84-46a3-48dc-b5bb-1350ac77f668)
 
 Depois fiz uma análise exploratória das categorias, e os insights obtidos foram:
 1. Quase 80% dos empréstimos são feitos pelos alunos de graduação, possivelmente por serem o maior público nas universidades (preicsamos de dados para confirmar se esse perfil se aplica a base). Alunos de pós-graduação e docentes são responsáveis por 14.6% e 3.4% dos empréstimos, será que esse público está sendo contemplado com os recursos necessários para atividades de pesquisa, ou há muita necessidade de livros/artigos que a biblioteca não disponibiliza? Muitos artigos podem ser acessados online em plataformas externas a universidade, por isso é esperado que o público de pós-graduação (mestrado, doutorado e latu sensu) use menos as bibliotecas.
