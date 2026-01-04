@@ -73,6 +73,4 @@ Ao final foram calculados os percentuais de variação do número de empréstimo
 
 ![image](https://github.com/user-attachments/assets/9663bf8e-e32f-4d2e-8f34-827c290e3b24)
 
-Vemos que de 2017 a 2019 as quedas foram no número de empréstimos foram expressivas, e a previsão é de aumento no número de empréstimos em 2022 em relação a 2019 para os cursos de Administração, Bioinformática e Ciências Odontológicas, principalmente, enquanto a queda persistiu em Ciências da Saúde e Engenharia Civil.
-
-Obs: Na época em que o desafio foi criado, os dados de 2022 eram uma previsão. Como já estamos em 2025, considerei que a previsão se concretizou e essa análise foi feita agora para a universidade.
+Vemos que de 2017 a 2019 as quedas foram no número de empréstimos foram expressivas, com aumento no número de empréstimos em 2022 em relação a 2019 para os cursos de Administração, Bioinformática e Ciências Odontológicas, principalmente, enquanto a queda persistiu em Ciências da Saúde e Engenharia Civil.
